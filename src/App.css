@@ -1,0 +1,298 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.container{
+  display: flex;
+  padding:20px;
+}
+.col-3 img{
+  width:100%;
+  height:400px;
+  padding:20px;
+}
+.image{
+  margin-right:60px;
+  
+}
+.image img{
+  width:auto;
+ height:700px;
+  object-fit: cover;
+}
+.images img{
+  width:auto;
+ height:80px;
+  object-fit: cover;
+}
+.products-desc{
+  font-size: 16px;
+  padding-top:20px;
+
+}
+.product-price{
+  font-weight: bold;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* color:white; */
+  /* background-color:#282c34; */
+  min-height:10vh;
+}
+.nav-links{
+  width:20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+ margin-left:-200px;
+ text-decoration: none;
+
+
+}
+.nav-links li{
+  color:black;
+}
+.nav-links li:hover{
+  color:#00ff7f;
+  border-bottom: 2px solid #00ff7f;
+}
+h1{
+  color:#1D1F22;
+display: flex; 
+  font-family: Raleway;
+  font-style: normal;
+  font-size:18px;
+  line-height: 62px;
+}
+.icons{
+margin-right:-50px;
+/* color:white; */
+background: white;
+}
+.icons span{
+  padding-left:20px;
+}
+select{
+/*  
+  appearance: none; */
+  cursor:pointer;
+  border: none;
+ 
+}
+.select::after{
+  content: '\25BC';
+}
+select::-ms-expand {
+  display: none;
+}
+/* option:checked{
+  display:none;
+} */
+.select{
+  position:relative;
+  display: flex;
+  /* border-radius: .25em; */
+  border: none;
+  overflow: hidden;
+}
+option{
+font-size: 20px;
+padding-top:20px;
+margin-bottom:20px;
+
+
+}
+.icons{
+  font-size: 70px;
+  color:green;
+}
+.shopping{
+  margin-left:20px;
+  margin-right:20px;
+}
+.money{
+  margin-left:20px;
+}
+.icons{
+  font-size: 24px;
+  background-color:white;
+  border-color:white;
+}
+.container-fluid{
+  display: flex;
+
+}
+img{
+  /* flex:3; */
+  width:100%;
+  display:block;
+  object-fit:cover;
+
+}
+.products-name {
+font-size: 30px;
+}
+.price-details{
+  display: flex;
+  margin-top:20px;
+  justify-items: center;
+}
+.price-text{
+  margin-top:10px;
+}
+.size{
+display:flex;
+}
+.size .btn:active{
+  width:60px;
+}
+.size .btn{
+  width:60px;
+  height:60px;
+  border:1px solid silver ;
+  padding-left:5px;
+}
+.size .btn:active{
+  background-color: black;
+  color:white;
+  }
+.add .btn{
+ 
+  text-transform: uppercase;
+  color:white;
+  width:250px;
+  height:50px;
+  border-radius:none;
+  cursor: pointer;
+}
+.add{
+  width:100%;
+  margin-top:30px;
+  text-align: center;
+}
+h3{
+  text-align: left;
+  text-transform: uppercase;
+  font-style: bold;
+  padding-left:90px;
+}
+.price-text{
+font-family: Roboto Condensed;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-transform: uppercase;
+
+}
+.small-images{
+  margin-right:-40px;
+  margin-left:80px;
+}
+ul{
+  list-style: none;
+}
+.imglist li{
+  width: 90px;
+  height: 114px;
+  /* border: 1px solid silver; */
+}
+.imglist li img{
+ height:100px;
+ object-fit: cover;
+}
+
+.carts{
+  border-top:1px solid grey;
+}
+.cart-icon{
+  margin-left:20px;
+}
+.size{
+  padding-left: 2vh;
+  margin-bottom: 20px;
+}
+.size .btn {
+  padding-left:10px;
+  text-align: center; 
+  margin-left:10px;
+}
+.remove{
+  margin-top:60px;
+}
+.pro-details{
+  display:flex;
+  margin-top:40px;
+  cursor:pointer
+
+}
+.dec,
+.inc,
+.quantity{
+  width:60px;
+  height:60px;
+  display:flex;
+  border:1px solid silver;
+  align-items: center;
+  justify-content:center ;
+}
+
+.cart-title{
+  text-transform: uppercase;
+  margin-left:-50px;
+}
+.product-title{
+  font-size: 20px;
+}
+.prize{
+ font-size:30px;
+ font-weight: bold;
+ text-align: center;
+}
+.row{
+  margin-left:20px;
+}
+.row .tables{
+  border-bottom: 1px solid silver;
+  border-top: 1px solid silver;
+}
+.total-prize{
+margin-top:60px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
